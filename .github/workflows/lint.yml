@@ -26,4 +26,4 @@ jobs:
         with:
           tf_version: ${{ env.tf_version }}
           tg_version: ${{ env.tg_version }}
-          tg_command: 'terragrunt hcl format --check --diff'
+          tg_command: 'hcl format --check --diff'
